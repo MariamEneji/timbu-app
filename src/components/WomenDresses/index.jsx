@@ -13,9 +13,9 @@ import {
 
 const fetcher = (...args) => fetch(...args).then((res) => res.json());
 
-const MenWatches = () => {
+const WomenDresses = () => {
   const { data, error, isLoading } = useSWR(
-    "https://dummyjson.com/products/category/mens-watches",
+    "https://dummyjson.com/products/category/womens-dresses",
     fetcher
   );
 
@@ -71,7 +71,7 @@ const MenWatches = () => {
         ) : (
           <h1>Not yet</h1>
         )}
-        {data && data?.products && data?.products.length > 0 ? (
+          {data && data?.products && data?.products.length > 0 ? (
           data?.products.map((shoe) => (
             <Card className="rounded-xl ">
               <CardContent className="bg-gray-200  border border-[#A95D17] rounded-xl  overflow-hidden shadow-md ">
@@ -99,4 +99,4 @@ const MenWatches = () => {
   );
 };
 
-export default MenWatches;
+export default WomenDresses;
