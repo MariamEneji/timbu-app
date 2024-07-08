@@ -10,6 +10,7 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
+import AddToCart from "../AddToCart";
 
 const fetcher = (...args) => fetch(...args).then((res) => res.json());
 
@@ -62,9 +63,7 @@ const MenShoes = () => {
 
                 <h3 className="text-xl h-12 mb-2 mt-2 pb-2">{shoe.title}</h3>
                 <p className="mb-2">${shoe.price}</p>
-                <button className="w-full bg-[#A95D17] rounded-lg p-2 text-white cursor-pointer hover:scale-[1.1] transition-all  ">
-                  Add to cart
-                </button>
+                <AddToCart productItem={shoe} />
               </CardContent>
             </Card>
           ))
@@ -85,9 +84,7 @@ const MenShoes = () => {
 
                 <h3 className="text-xl h-12 mb-2 mt-2 pb-2">{shoe.title}</h3>
                 <p className="mb-2">${shoe.price}</p>
-                <button className="w-full bg-[#A95D17] rounded-lg p-2 text-white cursor-pointer hover:scale-[1.1] transition-all  ">
-                  Add to cart
-                </button>
+                <AddToCart productItem={shoe} />
               </CardContent>
             </Card>
           ))

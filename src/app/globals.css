@@ -2,23 +2,18 @@
   @tailwind components;
   @tailwind utilities;
 
-/* 
-  @import url('https://fonts.cdnfonts.com/css/gilroy-bold');
 
-  body{
-    font-family: 'gilroy-Bold', sans-serif;
-    padding: 0 5rem ;
-  }
-  
-  p{
-    font-family: 'gilroy-Light', sans-serif;
-  } */
-
- 
 
   #hero{
     background-image: url('../../public/image.jpg');
     
+  }
+
+  #cart {
+    background-image: url('../../public/cart.png');
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
   }
 
   
