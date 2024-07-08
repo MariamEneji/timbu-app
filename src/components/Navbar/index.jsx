@@ -16,7 +16,7 @@ const Navbar = () => {
 
 
   return (
-    <div className={pathname === '/' ? 'flex absolute  w-full justify-between items-center py-6 px-2 md:px-20 text-white ': 'flex border-b-2   w-full justify-between items-center py-6 px-2 md:px-20 bg-white'} >
+    <div className={pathname === '/' ? 'flex absolute h-[10vh]  w-full justify-between items-center py-6 px-2 md:px-20 text-white ': 'flex h-[10vh] border-b-2   w-full justify-between items-center py-6 px-2 md:px-20 bg-white'} >
       <Link href={"/"}>
         <h1 className="font-extrabold text-xl cursor-pointer hover:scale-[1.1] transition-all ">Reeves</h1>
       </Link>

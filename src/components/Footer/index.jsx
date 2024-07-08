@@ -15,7 +15,7 @@ const Footer = () => {
 
     <div>
         
-    <div className={pathname === '/' ? 'flex absolute bottom-0  w-full justify-between py-6 px-2 md:px-80 bg-[#2B2016] text-white ': 'flex   w-full justify-between  py-6 px-2 md:px-80 bg-[#2B2016] text-white'} >
+    <div className={pathname === '/' ? 'flex h-[10vh] absolute bottom-0  w-full justify-between py-4 px-2 md:px-80 bg-[#2B2016] text-white ': 'flex h-[10vh]   w-full justify-between  py-4 px-2 md:px-80 bg-[#2B2016] text-white'} >
         <div>
         <Link href={"/"}>
         <h1 className="font-extrabold text-xl cursor-pointer hover:scale-[1.1] transition-all ">Reeves</h1>

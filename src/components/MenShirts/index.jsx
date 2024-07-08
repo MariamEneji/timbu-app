@@ -24,7 +24,7 @@ const MenShirts = () => {
     return <h1>error</h1>;
   }
 
-  if (isLoading) return <h3>Loading! Please Wait</h3>;
+  if (isLoading) return <h3 className="min-h-[70vh]">Loading! Please Wait</h3>;
 
   return (
     <div className="py-10 w-full">
