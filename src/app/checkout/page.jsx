@@ -5,6 +5,7 @@ import React, { useEffect, useState } from "react";
 import Image from "next/image";
 import { useDispatch, useSelector } from "react-redux";
 import atm from '../../../public/atm.png'
+import Link from "next/link";
 
 const CartComponent = () => {
 
@@ -71,7 +72,10 @@ const CartComponent = () => {
 
 
 
+        <Link href={'/payment'}>
         <button className="text-white bg-[#A95D17] border border-[#A95D17] py-2 w-full rounded-lg hover:text-[#A95D17] hover:bg-white">Make Payment</button>
+        </Link>
+       
 
       
 

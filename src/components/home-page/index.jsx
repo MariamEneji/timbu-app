@@ -2,6 +2,7 @@
 import Link from 'next/link';
 import { usePathname } from 'next/navigation'
 import React from 'react'
+import Footer from '../Footer';
 
 
 const HomePage = () => {
@@ -19,12 +20,13 @@ const HomePage = () => {
 
        <Link href={'/men'} className='bg-[#A95D17] text-white font-bold px-6 py-2 border border-[#A95D17] rounded-xl'>Our Products</Link>
 
+      
+
       </div>
 
 
    
-
-
+    
 
       
       

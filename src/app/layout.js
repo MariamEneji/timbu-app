@@ -3,6 +3,7 @@ import "./globals.css";
 import Navbar from "@/components/Navbar";
 import CommonLayout from "@/components/common-layout";
 
+
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
@@ -17,6 +18,7 @@ export default function RootLayout({ children }) {
         <CommonLayout>
         <Navbar/>
         {children}
+       
         </CommonLayout>
         </body>
        
